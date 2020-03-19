@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.caculater.Mistycaculater">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="512dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/tu1"
+        >
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="hello,misty!" />
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/linear"
+            android:columnCount="4"
+            android:orientation="horizontal"
+            android:rowCount="6"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/gridLayout">
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_columnSpan="4"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="5dp"
+                android:text=""
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/AC"
+                android:height="70dp"
+                android:text="AC" />
+
+            <Button
+                android:id="@+id/DEL"
+                android:height="70dp"
+                android:text="DEL" />
+
+            <Button
+                android:id="@+id/chu"
+                android:height="70dp"
+                android:text="÷" />
+
+            <Button
+                android:id="@+id/chen"
+                android:height="70dp"
+                android:text="×" />
+
+            <Button
+                android:id="@+id/btu7"
+                android:height="70dp"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btu8"
+                android:height="70dp"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btu9"
+                android:height="70dp"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/ji"
+                android:height="70dp"
+                android:text="－" />
+
+            <Button
+                android:id="@+id/btu4"
+                android:height="70dp"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btu5"
+                android:height="70dp"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btu6"
+                android:height="70dp"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/jia"
+                android:height="70dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/btu1"
+                android:height="70dp"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btu2"
+                android:height="70dp"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btu3"
+                android:height="70dp"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/equ"
+                android:layout_gravity="fill_vertical"
+                android:layout_rowSpan="2"
+                android:width="10dp"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/pre"
+                android:height="70dp"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/btu0"
+                android:height="70dp"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/dot"
+                android:height="70dp"
+                android:text="." />
+
+
+        </GridLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

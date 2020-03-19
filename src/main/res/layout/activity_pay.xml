@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.caculater.pay">
+
+    <RelativeLayout
+        android:layout_width="366dp"
+        android:layout_height="510dp"
+        android:background="@drawable/tu1"
+
+        >
+
+        <Button
+            android:id="@+id/vxsk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:text="微信收款" />
+
+        <Button
+            android:id="@+id/zfbsk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="37dp"
+            android:layout_toEndOf="@+id/vxsk"
+            android:text="支付宝收款" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vxsk"
+            android:layout_width="match_parent"/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
